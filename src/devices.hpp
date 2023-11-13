@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
 /*
-  These are audio devices: wireless headphones / earbuds
-  It seems these need a shorter range between ESP & iDevice
+  这些是音频设备：无线耳机/耳塞
+  似乎这些需要 ESP32 和 苹果设备 之间的距离较短
 */
 const uint8_t DEVICES[][31] = {
   // Airpods
@@ -42,8 +42,8 @@ const uint8_t DEVICES[][31] = {
 };
 
 /*
-  These are more general home devices
-  It seems these can work over long distances, especially AppleTV Setup
+  这些是更通用的家用设备
+  看来这些可以远距离工作，尤其是 AppleTV Setup
 */
 const uint8_t SHORT_DEVICES[][23] = {
   // AppleTV Setup
